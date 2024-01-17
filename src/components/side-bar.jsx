@@ -51,7 +51,7 @@ const SideBar = () => {
                             </li>
                             <li className="rounded-sm hover:bg-white/20">
                                 <a
-                                    href="#"
+                                    href="/users"
                                     className="flex items-center p-2 space-x-3 rounded-md"
                                 >
                                     <svg
@@ -69,12 +69,12 @@ const SideBar = () => {
                                              0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4"
                                         />
                                     </svg>
-                                    <span className= "text-gray-100">Inbox</span>
+                                    <span className= "text-gray-100">Users</span>
                                 </a>
                             </li>
                             <li className="rounded-sm hover:bg-white/20">
                                 <a
-                                    href="/users"
+                                    href="/products"
                                     className="flex items-center p-2 space-x-3 rounded-md"
                                 >
                                     <svg
@@ -92,13 +92,13 @@ const SideBar = () => {
                                         />
                                     </svg>
                                     <span className="text-gray-100">
-                                        Orders
+                                        Products
                                     </span>
                                 </a>
                             </li>
                             <li className="rounded-sm hover:bg-white/20">
                                 <a
-                                    href="#"
+                                    href="setting"
                                     className="flex items-center p-2 space-x-3 rounded-md"
                                 >
                                     <svg
